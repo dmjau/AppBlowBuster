@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryText"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_main_lend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/btn_main_search"
+        android:text="@string/txt_button_lend"
+        android:textColor="@color/colorPrimaryText"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_search"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_select"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_search" />
+
+    <Button
+        android:id="@+id/button_main_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/btn_main_search"
+        android:text="@string/txt_button_return"
+        android:textColor="@color/colorPrimaryText"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_select"
+        app:layout_constraintStart_toEndOf="@+id/button_main_search"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_search" />
+
+    <Spinner
+        android:id="@+id/spinner_main"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_select"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_select"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_select"/>
+
+    <TextView
+        android:id="@+id/textView_main_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/txt_textview_select"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText_main_search"
+        android:layout_width="300sp"
+        android:layout_height="45sp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:hint="@string/txt_edittext_search"
+        android:inputType="textPersonName"
+        android:text="@string/txt_empty"
+        android:fontFamily="sans-serif-smallcaps"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_select"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_select"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_select"
+        android:background="@drawable/edittext_main_search"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textView_main_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:text="@string/txt_empty"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_select"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_select"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_select" />
+
+    <Button
+        android:id="@+id/button_main_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_button_search"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="@+id/editText_main_search"
+        app:layout_constraintStart_toStartOf="@+id/editText_main_search"
+        app:layout_constraintTop_toBottomOf="@+id/editText_main_search" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

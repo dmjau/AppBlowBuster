@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppBlowBuster</string>
+    <string name="txt_splash_title">BlowBuster</string>
+    <string name="txt_empty"> </string>
+    <string name="txt_creator">DANTE MARTIN JAUME</string>
+    <string name="txt_button_lend">PRESTAR</string>
+    <string name="txt_button_return">DEVOLVER</string>
+    <string name="txt_textview_select">Seleccione el Producto</string>
+    <string name="txt_select">Seleccionaste: </string>
+    <string name="txt_edittext_search">Titulo de Pelicula</string>
+    <string name="txt_button_search">Buscar</string>
+
+
+    <string-array name="products">
+        <item>DVD</item>
+        <item>BluRay</item>
+        <item>VHS</item>
+        <item>PS4</item>
+        <item>XboxOne</item>
+    </string-array>
+
+</resources>
