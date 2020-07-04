@@ -2,8 +2,8 @@ package com.cursoandroid.appblowbuster
 
 import kotlin.random.Random
 
-open class Consolas(private var Marca: String,
-                    private var Modelo_consola: String,
+open class Consolas(var marca: String,
+                    var modelo_consola: String,
                     var estado_Consola: Boolean): Producto (tipoProducto = TIPO_PRODUCTO, numeroProducto = obtenerNumeroProducto()) {
 
     companion object{

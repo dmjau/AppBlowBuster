@@ -1,6 +1,6 @@
 package com.cursoandroid.appblowbuster
 
-class Vhs (protected var fechaDeFabricacion_VHS: Int,
+class Vhs (var fechaDeFabricacion_VHS: Int,
            var codigoIMBD_VHS: Int,
            var titulo_VHS: String,
            var fechaPublicacion_VHS: Int,

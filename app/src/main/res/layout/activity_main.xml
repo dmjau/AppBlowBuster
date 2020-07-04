@@ -8,27 +8,16 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button_main_lend"
+        android:id="@+id/button_main_state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="230dp"
         android:background="@drawable/btn_main_search"
+        android:padding="8sp"
         android:text="@string/txt_button_lend"
         android:textColor="@color/colorPrimaryText"
-        app:layout_constraintEnd_toStartOf="@+id/button_main_search"
-        app:layout_constraintStart_toStartOf="@+id/textView_main_select"
-        app:layout_constraintTop_toBottomOf="@+id/button_main_search" />
-
-    <Button
-        android:id="@+id/button_main_return"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:background="@drawable/btn_main_search"
-        android:text="@string/txt_button_return"
-        android:textColor="@color/colorPrimaryText"
-        app:layout_constraintEnd_toEndOf="@+id/textView_main_select"
-        app:layout_constraintStart_toEndOf="@+id/button_main_search"
+        app:layout_constraintEnd_toEndOf="@+id/button_main_search"
+        app:layout_constraintStart_toStartOf="@+id/button_main_search"
         app:layout_constraintTop_toBottomOf="@+id/button_main_search" />
 
     <Spinner
@@ -79,6 +68,8 @@
         android:layout_marginTop="190dp"
         android:text="@string/txt_empty"
         android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-smallcaps"
         app:layout_constraintEnd_toEndOf="@+id/textView_main_select"
         app:layout_constraintStart_toStartOf="@+id/textView_main_select"
         app:layout_constraintTop_toBottomOf="@+id/textView_main_select" />
@@ -90,6 +81,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/txt_empty"
         android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-smallcaps"
         app:layout_constraintEnd_toEndOf="@+id/textView_main_results1"
         app:layout_constraintStart_toStartOf="@+id/textView_main_results1"
         app:layout_constraintTop_toBottomOf="@+id/textView_main_results1" />
@@ -101,6 +94,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/txt_empty"
         android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-smallcaps"
         app:layout_constraintEnd_toEndOf="@+id/textView_main_results2"
         app:layout_constraintStart_toStartOf="@+id/textView_main_results2"
         app:layout_constraintTop_toBottomOf="@+id/textView_main_results2" />
@@ -112,6 +107,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/txt_empty"
         android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-smallcaps"
         app:layout_constraintEnd_toEndOf="@+id/textView_main_results3"
         app:layout_constraintStart_toStartOf="@+id/textView_main_results3"
         app:layout_constraintTop_toBottomOf="@+id/textView_main_results3" />
@@ -123,6 +120,8 @@
         android:layout_marginTop="10dp"
         android:text="@string/txt_empty"
         android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-smallcaps"
         app:layout_constraintEnd_toEndOf="@+id/textView_main_results4"
         app:layout_constraintStart_toStartOf="@+id/textView_main_results4"
         app:layout_constraintTop_toBottomOf="@+id/textView_main_results4" />
@@ -133,7 +132,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="@string/txt_empty"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-smallcaps"
         app:layout_constraintEnd_toEndOf="@+id/textView_main_results5"
         app:layout_constraintStart_toStartOf="@+id/textView_main_results5"
         app:layout_constraintTop_toBottomOf="@+id/textView_main_results5" />
@@ -143,10 +146,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/txt_button_search"
+        android:backgroundTint="@color/colorSecondaryText"
         android:padding="10dp"
+        android:text="@string/txt_button_search"
         android:textColor="@color/colorPrimaryDark"
-        android:backgroundTint="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="@+id/editText_main_search"
         app:layout_constraintStart_toStartOf="@+id/editText_main_search"
         app:layout_constraintTop_toBottomOf="@+id/editText_main_search" />
