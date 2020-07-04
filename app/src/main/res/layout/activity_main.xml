@@ -73,7 +73,7 @@
         android:importantForAutofill="no" />
 
     <TextView
-        android:id="@+id/textView_main_results"
+        android:id="@+id/textView_main_results1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="190dp"
@@ -82,6 +82,61 @@
         app:layout_constraintEnd_toEndOf="@+id/textView_main_select"
         app:layout_constraintStart_toStartOf="@+id/textView_main_select"
         app:layout_constraintTop_toBottomOf="@+id/textView_main_select" />
+
+    <TextView
+        android:id="@+id/textView_main_results2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_empty"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_results1"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_results1"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_results1" />
+
+    <TextView
+        android:id="@+id/textView_main_results3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_empty"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_results2"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_results2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_results2" />
+
+    <TextView
+        android:id="@+id/textView_main_results4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_empty"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_results3"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_results3"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_results3" />
+
+    <TextView
+        android:id="@+id/textView_main_results5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_empty"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_results4"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_results4"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_results4" />
+
+    <TextView
+        android:id="@+id/textView_main_results6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_empty"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/textView_main_results5"
+        app:layout_constraintStart_toStartOf="@+id/textView_main_results5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_main_results5" />
 
     <Button
         android:id="@+id/button_main_search"

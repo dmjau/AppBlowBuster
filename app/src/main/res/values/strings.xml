@@ -11,6 +11,7 @@
     <string name="txt_button_search">Buscar</string>
 
 
+
     <string-array name="products">
         <item>DVD</item>
         <item>BluRay</item>
